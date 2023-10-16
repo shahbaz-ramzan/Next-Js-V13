@@ -16,11 +16,16 @@ export default function Home() {
   return (
     <main >
      <h1>Basic Routing | Make New Page </h1>
+     <br></br>
      <Link href="/login">Go to Login Page</Link>
+     <br></br>
      <br></br>
      <Link href="/about">Go to About Page</Link>
      <br></br>
+     <br></br>
      <button onClick={()=>navigate("/login")}>Go to Login Page</button>
+     <br></br>
+     <br></br>
      <button onClick={()=>navigate("/about")}>Go to About Page</button>
     </main>
   )
