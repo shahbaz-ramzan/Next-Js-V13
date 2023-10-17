@@ -9,8 +9,9 @@ export default function AboutCollege() {
         <br></br>
         <br></br>
         <Link href="/about">Go to About Page</Link>
-    
-
+        <br></br>
+        <br></br>
+        <Link href="/about/aboutcollege/collegehistory">Go to the College History Page</Link>
     </main>
   )
 }
