@@ -1,18 +1,22 @@
-.about-main{
+.about-main {
     display: flex;
 }
-.about-main li{
+
+.about-main li {
     margin-left: 25px;
     list-style-type: none;
 }
-.about-main li a{
+
+.about-main li a {
     text-decoration: none;
 
 }
-.about-main h4{
+
+.about-main h4 {
     margin: 0;
 }
-.heading{
+
+.heading {
     text-align: center;
     color: burlywood;
     margin-top: 50px;
