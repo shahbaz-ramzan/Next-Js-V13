@@ -7,7 +7,7 @@ const Login=()=>{
     const router=useRouter()
     return(
         <main>
-            <h1>Login Page</h1>
+            <h1 className="heading">Login Page</h1>
             <Link href="/" >Go to Home Page</Link>
             <br></br>
             <br></br>
