@@ -1,0 +1,19 @@
+.about-main{
+    display: flex;
+}
+.about-main li{
+    margin-left: 25px;
+    list-style-type: none;
+}
+.about-main li a{
+    text-decoration: none;
+
+}
+.about-main h4{
+    margin: 0;
+}
+.heading{
+    text-align: center;
+    color: burlywood;
+    margin-top: 50px;
+}

@@ -8,7 +8,7 @@ export default function CollegeHistory() {
     }
   return (
     <main>
-        <h1>College History Page</h1>
+        <h1 className="heading">College History Page</h1>
         <br></br>
         <button onClick={()=>navigate("/")}>Go to Home Page</button>
         <br></br>
