@@ -14,7 +14,7 @@ export default function Home() {
                    <Link href="/productlist">Go to Product List Page with client side render</Link>
                 </li>
                 <li>
-                   <Link href="/listproduct">Go to Product Lists Page with server render </Link>
+                   <Link href="/product">Go to Product Lists Page with server render </Link>
                 </li>
             </ul>
 
