@@ -1,7 +1,7 @@
 
 "use client"
 import { useEffect,useState } from "react"
-export default function ProductList() {
+export default function ProductList(){
 
     const [product,setProduct]=useState([])
 
