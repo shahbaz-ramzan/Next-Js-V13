@@ -4,6 +4,8 @@ import { useEffect, useState } from "react"
 export default function ProductList() {
 
     const [product, setProduct] = useState([])
+    const [styleState,setStyleState]=useState({backgroundColor:"green"})
+    console.log("color",styleState)
 
     async function fetchProduct() {
         const res = await fetch("https://dummyjson.com/products")
@@ -16,6 +18,20 @@ export default function ProductList() {
         fetchProduct()
     }, [])
 
+     function price(price){
+        setStyleState({backgroundColor:"yellow"})
+        alert(price)
+    }
+
+    function discount(discount){
+        alert(discount)
+    }
+
+    function stock(stock){
+        alert(stock)
+    }
+
+
     return (
         <div>
             <h1>Product List Page</h1>
@@ -23,9 +39,9 @@ export default function ProductList() {
                 product.map((item) => (
                     <div key={item.id}>
                         <h3>Name:{item.title}</h3>
-                        <button onClick={()=>alert(item.price)}>Check Price </button>
-                        <button onClick={()=>alert(item.discountPercentage)}>Check Discount Percentage</button>
-                        <button onClick={()=>alert(item.stock)}>Check Stock</button>
+                        <button onClick={()=>price(item.price)} style={styleState}>Check Price </button>
+                        <button onClick={()=>discount(item.discountPercentage)} style={{backgroundColor:"blue"}}>Check Discount Percentage</button>
+                        <button onClick={()=>stock(item.stock)} style={{backgroundColor:"green"}}>Check Stock</button>
                     </div>
 
 
