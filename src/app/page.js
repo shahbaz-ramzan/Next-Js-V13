@@ -19,6 +19,9 @@ export default function Home() {
                 <li>
                    <Link href="/product">Go to Product Lists Page with server render </Link>
                 </li>
+                <li>
+                    <Link href="/image-optimization">Go to Image Page</Link>
+                </li>
             </ul>
 
         </main>
